@@ -4,7 +4,7 @@
 
 This project is a fully functional and responsive web-based music player. Users can play, pause, skip, shuffle, and repeat songs, as well as adjust volume levels. The app features a dynamic image list of album covers that updates as the current track changes.
 
-Live Demo: (click here)[https://themuseic.netlify.app]
+Live Demo: [click here](https://themuseic.netlify.app)
 
 ## Features
 
