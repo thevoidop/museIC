@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="icons/logo.svg" type="image/x-icon" />
+        <title>MuseIC</title>
+    </head>
+    <body>
+        <!-- Navbar Begins -->
+        <nav>
+            <div class="branding">
+                <img src="icons/logo.svg" alt="" />
+                <h1>MuseIC</h1>
+            </div>
+            <img class="hamburger" src="/icons/hamburger.svg" alt="" />
+        </nav>
+        <!-- Navbar Ends -->
+        <main>
+            <!-- Left Pane Starts -->
+            <div class="left">
+                <div class="cover">
+                    <img src="images/cover1.jpg" id="cover" alt="" />
+                </div>
+                <div class="music">
+                    <div class="info">
+                        <h1 id="title"></h1>
+                        <p id="artist"></p>
+                        <p id="album"></p>
+                    </div>
+                    <div class="controls">
+                        <div class="progress">
+                            <p id="elapsedTime">0:00</p>
+                            <audio id="audio" src="" preload="auto"></audio>
+                            <input type="range" id="progressBar" value="-1" />
+                            <p id="totalTime">0:00</p>
+                        </div>
+                        <div class="volume">
+                            <img
+                                id="volumeIcon"
+                                src="icons/volume.svg"
+                                alt=""
+                            />
+                            <input
+                                type="range"
+                                id="volumeBar"
+                                value="6"
+                                max="8"
+                            />
+                        </div>
+                        <div class="change">
+                            <img src="icons/repeat.svg" id="repeat" alt="" />
+                            <img
+                                src="icons/previous.svg"
+                                id="previous"
+                                alt=""
+                            />
+                            <img src="icons/play.svg" id="play" alt="" />
+                            <img src="icons/next.svg" id="next" alt="" />
+                            <img src="icons/shuffle.svg" id="shuffle" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Left Pane Ends -->
+
+            <!-- Right Pane Starts -->
+            <div class="right"></div>
+            <!-- Right Pane Ends -->
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
